@@ -18,11 +18,11 @@ const Dots = ({ selected }) => {
 
 const Screen_2 = ({ navigation }) => {
   return (
-    <View className="bg-red-900 min-h-full  ">
+    <View className="bg-red-900 rounded-full min-h-full">
       <Onboarding
         DotComponent={Dots}
         // backgroundColor="#ef195f"
-        bottomBarColor="rgba(255, 255, 255, 0.0)" // Set opacity to 0
+        bottomBarColor="#ef195f"
         showSkip={false}
         showNext={true}
         showDone={false}
@@ -37,7 +37,7 @@ const Screen_2 = ({ navigation }) => {
         }
         pages={[
           {
-            backgroundColor: "rgba(239, 25, 95, 0.1)",
+            backgroundColor: "#ef195f",
             image: (
               <View
                 style={{
