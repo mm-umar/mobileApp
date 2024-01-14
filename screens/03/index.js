@@ -1,7 +1,7 @@
 import React from "react";
 import { Image, Text, TouchableOpacity, View } from "react-native";
 
-const RideScreen01 = (props) => {
+const RideScreen03 = (props) => {
   return (
     <View className="bg-[#ffa339] w-full h-screen mt-10 flex items-center text-white ">
       <View>
@@ -39,4 +39,4 @@ const RideScreen01 = (props) => {
   );
 };
 
-export default RideScreen01;
+export default RideScreen03;

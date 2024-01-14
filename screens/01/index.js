@@ -1,7 +1,7 @@
 import { View, Text, Image } from "react-native";
 import React from "react";
 
-const RideScreen03 = () => {
+const RideScreen01 = () => {
   return (
     <View className="bg-[#ffa339] min-h-full  ">
       <View
@@ -43,4 +43,4 @@ const RideScreen03 = () => {
   );
 };
 
-export default RideScreen03;
+export default RideScreen01;
