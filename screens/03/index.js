@@ -1,9 +1,9 @@
 import React from "react";
 import { Image, Text, TouchableOpacity, View } from "react-native";
 
-const Screen1 = (props) => {
+const RideScreen01 = (props) => {
   return (
-    <View className="bg-[#ffa339] w-full h-screen flex items-center  text-white ">
+    <View className="bg-[#ffa339] w-full h-screen mt-10 flex items-center text-white ">
       <View>
         <Image
           source={require("../../assets/delivery-bike.png")}
@@ -27,7 +27,9 @@ const Screen1 = (props) => {
         </Text>
       </View>
       <View className=" mt-10">
-        <TouchableOpacity onPress={() => props.navigation.navigate("Screen2")}>
+        <TouchableOpacity
+          onPress={() => props.navigation.navigate("RideScreen02")}
+        >
           <Text className="text-white text-center text-[16px] py-3 uppercase rounded-full px-16 bg-[#3a3dff]">
             get started
           </Text>
@@ -37,4 +39,4 @@ const Screen1 = (props) => {
   );
 };
 
-export default Screen1;
+export default RideScreen01;
